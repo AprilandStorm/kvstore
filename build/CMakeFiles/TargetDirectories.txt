@@ -1,0 +1,3 @@
+/home/apirlstorm/projects/kvstore/build/CMakeFiles/rebuild_cache.dir
+/home/apirlstorm/projects/kvstore/build/CMakeFiles/edit_cache.dir
+/home/apirlstorm/projects/kvstore/build/CMakeFiles/tcptest.dir
