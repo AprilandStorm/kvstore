@@ -1,4 +1,4 @@
-# yjKvs: High-Performance Distributed KV Storage Engine
+# yjKvs: yj KV Storage Engine
 
 yjKvs是一款基于 C++11 开发的高性能分布式Key-Value存储引擎。项目深度融合了Reactor网络模型、多级缓存架构以及异步批量持久化技术，旨在处理极端高并发场景下的数据读写需求。
 
