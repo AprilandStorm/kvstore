@@ -14,34 +14,41 @@ int main() {
     std::cout << "   yjKvs High-Performance Engine Boot  " << std::endl;
     std::cout << "=======================================" << std::endl;
 
-    //开启底层多线程防弹衣
     evthread_use_pthreads();
-
-    //组装心脏 (Main Loop) 和 大堂经理 (Server)
     EventLoop mainLoop;
-    TcpServer server(&mainLoop, 9999);
+
+    // 【修改点】：使用智能指针包裹，交出生命周期的手动控制权
+    auto server = std::make_unique<TcpServer>(&mainLoop, 9999);
+    server->SetThreadNum(4); 
     
-    // 配置多核引擎
-    server.SetThreadNum(4); 
+    auto kvService = std::make_unique<KVService>(server.get(), 10000, "./db_data");
+    
+    kvService->Start(); 
+    server->Start();
 
-    //组装KVService，设置LRU缓存容量为10000个Key
-    //此时它已经把网络层和LRU内存层彻底连接在了一起
-    KVService kvService(&server, 10000, "./db_data");
-    kvService.Start(); 
-
-    //注册Ctrl+C优雅退出
     event* sigintEvent = evsignal_new(mainLoop.GetBase(), SIGINT, 
         [](evutil_socket_t fd, short events, void* arg) {
-            LOG_INFO << "Caught SIGINT (Ctrl+C)! Shutting down gracefully...";
+            LOG_INFO << "Caught SIGINT! Commencing Graceful Shutdown...";
             static_cast<EventLoop*>(arg)->Quit(); 
         }, &mainLoop);
     event_add(sigintEvent, nullptr);
 
-    //启动服务器
-    server.Start();
     mainLoop.Loop(); 
 
-    //安全退出
+    // =====================================
+    // 优雅停机
+    // =====================================
+    
+    //先关闭网络大门，停掉所有网络IO线程！
+    //这样绝对不会再有任何新请求被投递给业务层。
+    server.reset(); 
+    LOG_INFO << "Network layer (TcpServer) has been fully shut down.";
+
+    //安心关闭业务层（等待积压任务处理完，Flusher刷盘结束）
+    kvService.reset();
+    LOG_INFO << "Business layer (KVService) has been safely destroyed.";
+
+    // =====================================
     event_free(sigintEvent); 
     LOG_INFO << "Engine stopped safely.";
     return 0;

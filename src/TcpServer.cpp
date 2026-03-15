@@ -15,6 +15,10 @@ namespace yjKvs {
     }
 
     TcpServer::~TcpServer() {
+        //手动且提前销毁IO线程池
+        //这一步会阻塞主线程，直到所有Sub-Reactor安全下班。
+        threadPool_.reset();
+
         while (!connectionPool_.empty()) {
             delete connectionPool_.front();
             connectionPool_.pop();

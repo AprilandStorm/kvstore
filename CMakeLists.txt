@@ -55,3 +55,13 @@ target_link_libraries(tcptest
     event_pthreads 
     ${MY_LEVELDB_ROOT}/build/libleveldb.a
 )
+
+option(USE_TSAN "Enable Google ThreadSanitizer for Data Race & Deadlock detection" OFF)
+
+if(USE_TSAN)
+    message(WARNING "ThreadSanitizer is ENABLED! Performance will be heavily impacted for deep analysis.")
+    
+    #只对tcptest这个程序注入特殊参数，不污染全局
+    target_compile_options(tcptest PRIVATE -fsanitize=thread -g -O1)
+    target_link_options(tcptest PRIVATE -fsanitize=thread)
+endif()

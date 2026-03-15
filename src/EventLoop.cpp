@@ -4,8 +4,8 @@
 namespace yjKvs {
 
     EventLoop::EventLoop() {
-        // 创建 libevent 的核心调度器
-        // 底层会自动探测当前系统最高效的 I/O 多路复用机制
+        //创建libevent的核心调度器
+        //底层会自动探测当前系统最高效的I/O多路复用机制
         base_ = event_base_new();
         if (!base_) {
             LOG_ERROR << "EventLoop: Failed to initialize event_base!";
@@ -13,7 +13,7 @@ namespace yjKvs {
             exit(EXIT_FAILURE); 
         }
         
-        // 打印底层实际使用的机制
+        //打印底层实际使用的机制
         LOG_INFO << "EventLoop initialized. Method: " << event_base_get_method(base_);
     }
 
