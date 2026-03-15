@@ -245,3 +245,21 @@ Avg Latency: 1.17118 ms
 编译项目时，在 CMakeLists.txt 里控制 CMAKE_BUILD_TYPE 即可。
 测试时：cmake -DCMAKE_BUILD_TYPE=Debug .. （会打印日志）
 压测/上线时：cmake -DCMAKE_BUILD_TYPE=Release .. （CMake 会自动注入 -DNDEBUG 宏，所有 LOG_INFO 瞬间消失，性能拉满！）
+
+
+# 1. 初始化
+git init
+
+# 2. 排除掉不该上传的二进制文件（非常重要！）
+echo "build/" > .gitignore
+echo "db_data/" >> .gitignore
+echo "bin/" >> .gitignore
+
+# 3. 添加文件
+git add .
+git commit -m "feat: 实现异步批量写回、同Key路由一致性及对象池优化，QPS破15万"
+
+# 4. 关联远程仓库并推送
+git branch -M main
+git remote add origin https://github.com/你的用户名/kvstore.git
+git push -u origin main
