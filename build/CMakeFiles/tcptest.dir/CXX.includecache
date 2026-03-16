@@ -169,7 +169,11 @@ string
 -
 unordered_map
 -
+vector
+-
 mutex
+-
+cstdint
 -
 
 /home/apirlstorm/projects/kvstore/include/LevelDBStore.h
@@ -281,8 +285,6 @@ algorithm
 /home/apirlstorm/projects/kvstore/src/LRUCache.cpp
 ../include/LRUCache.h
 /home/apirlstorm/projects/kvstore/include/LRUCache.h
-mutex
--
 
 /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp
 ../include/LevelDBStore.h

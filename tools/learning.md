@@ -236,10 +236,10 @@ Avg Latency: 3.25282 ms
 =====================================
 
 [TEST COMPLETE]
-Time taken : 1.31 seconds
+Time taken : 1.419 seconds
 Total Req  : 200000
-QPS        : 152672 req/sec
-Avg Latency: 1.17118 ms
+QPS        : 140944 req/sec
+Avg Latency: 1.27833 ms
 
 
 编译项目时，在 CMakeLists.txt 里控制 CMAKE_BUILD_TYPE 即可。

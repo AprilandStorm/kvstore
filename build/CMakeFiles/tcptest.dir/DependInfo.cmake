@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/apirlstorm/projects/kvstore/src/ThreadPool.cpp" "/home/apirlstorm/projects/kvstore/build/CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o"
   "/home/apirlstorm/projects/kvstore/test/tcpTest.cpp" "/home/apirlstorm/projects/kvstore/build/CMakeFiles/tcptest.dir/test/tcpTest.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

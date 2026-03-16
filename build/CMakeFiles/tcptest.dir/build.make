@@ -60,171 +60,171 @@ include CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/test/tcpTest.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/test/tcpTest.cpp.o: ../test/tcpTest.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tcptest.dir/test/tcpTest.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/test/tcpTest.cpp.o -c /home/apirlstorm/projects/kvstore/test/tcpTest.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/test/tcpTest.cpp.o -c /home/apirlstorm/projects/kvstore/test/tcpTest.cpp
 
 CMakeFiles/tcptest.dir/test/tcpTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/test/tcpTest.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/test/tcpTest.cpp > CMakeFiles/tcptest.dir/test/tcpTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/test/tcpTest.cpp > CMakeFiles/tcptest.dir/test/tcpTest.cpp.i
 
 CMakeFiles/tcptest.dir/test/tcpTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/test/tcpTest.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/test/tcpTest.cpp -o CMakeFiles/tcptest.dir/test/tcpTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/test/tcpTest.cpp -o CMakeFiles/tcptest.dir/test/tcpTest.cpp.s
 
 CMakeFiles/tcptest.dir/src/EventLoop.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/EventLoop.cpp.o: ../src/EventLoop.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tcptest.dir/src/EventLoop.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoop.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoop.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoop.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoop.cpp
 
 CMakeFiles/tcptest.dir/src/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/EventLoop.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoop.cpp > CMakeFiles/tcptest.dir/src/EventLoop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoop.cpp > CMakeFiles/tcptest.dir/src/EventLoop.cpp.i
 
 CMakeFiles/tcptest.dir/src/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/EventLoop.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoop.cpp -o CMakeFiles/tcptest.dir/src/EventLoop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoop.cpp -o CMakeFiles/tcptest.dir/src/EventLoop.cpp.s
 
 CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.o: ../src/EventLoopThread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp
 
 CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp > CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp > CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.i
 
 CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp -o CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoopThread.cpp -o CMakeFiles/tcptest.dir/src/EventLoopThread.cpp.s
 
 CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.o: ../src/EventLoopThreadPool.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.o -c /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp
 
 CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp > CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp > CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.i
 
 CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp -o CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/EventLoopThreadPool.cpp -o CMakeFiles/tcptest.dir/src/EventLoopThreadPool.cpp.s
 
 CMakeFiles/tcptest.dir/src/TcpServer.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/TcpServer.cpp.o: ../src/TcpServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tcptest.dir/src/TcpServer.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/TcpServer.cpp.o -c /home/apirlstorm/projects/kvstore/src/TcpServer.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/TcpServer.cpp.o -c /home/apirlstorm/projects/kvstore/src/TcpServer.cpp
 
 CMakeFiles/tcptest.dir/src/TcpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/TcpServer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/TcpServer.cpp > CMakeFiles/tcptest.dir/src/TcpServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/TcpServer.cpp > CMakeFiles/tcptest.dir/src/TcpServer.cpp.i
 
 CMakeFiles/tcptest.dir/src/TcpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/TcpServer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/TcpServer.cpp -o CMakeFiles/tcptest.dir/src/TcpServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/TcpServer.cpp -o CMakeFiles/tcptest.dir/src/TcpServer.cpp.s
 
 CMakeFiles/tcptest.dir/src/Connection.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/Connection.cpp.o: ../src/Connection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tcptest.dir/src/Connection.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/Connection.cpp.o -c /home/apirlstorm/projects/kvstore/src/Connection.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/Connection.cpp.o -c /home/apirlstorm/projects/kvstore/src/Connection.cpp
 
 CMakeFiles/tcptest.dir/src/Connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/Connection.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/Connection.cpp > CMakeFiles/tcptest.dir/src/Connection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/Connection.cpp > CMakeFiles/tcptest.dir/src/Connection.cpp.i
 
 CMakeFiles/tcptest.dir/src/Connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/Connection.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/Connection.cpp -o CMakeFiles/tcptest.dir/src/Connection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/Connection.cpp -o CMakeFiles/tcptest.dir/src/Connection.cpp.s
 
 CMakeFiles/tcptest.dir/src/KVProtocol.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/KVProtocol.cpp.o: ../src/KVProtocol.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tcptest.dir/src/KVProtocol.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/KVProtocol.cpp.o -c /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/KVProtocol.cpp.o -c /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp
 
 CMakeFiles/tcptest.dir/src/KVProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/KVProtocol.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp > CMakeFiles/tcptest.dir/src/KVProtocol.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp > CMakeFiles/tcptest.dir/src/KVProtocol.cpp.i
 
 CMakeFiles/tcptest.dir/src/KVProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/KVProtocol.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp -o CMakeFiles/tcptest.dir/src/KVProtocol.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/KVProtocol.cpp -o CMakeFiles/tcptest.dir/src/KVProtocol.cpp.s
 
 CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.o: ../src/HashLRUCache.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.o -c /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.o -c /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp
 
 CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp > CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp > CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.i
 
 CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp -o CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/HashLRUCache.cpp -o CMakeFiles/tcptest.dir/src/HashLRUCache.cpp.s
 
 CMakeFiles/tcptest.dir/src/LRUCache.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/LRUCache.cpp.o: ../src/LRUCache.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tcptest.dir/src/LRUCache.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/LRUCache.cpp.o -c /home/apirlstorm/projects/kvstore/src/LRUCache.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/LRUCache.cpp.o -c /home/apirlstorm/projects/kvstore/src/LRUCache.cpp
 
 CMakeFiles/tcptest.dir/src/LRUCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/LRUCache.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/LRUCache.cpp > CMakeFiles/tcptest.dir/src/LRUCache.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/LRUCache.cpp > CMakeFiles/tcptest.dir/src/LRUCache.cpp.i
 
 CMakeFiles/tcptest.dir/src/LRUCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/LRUCache.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/LRUCache.cpp -o CMakeFiles/tcptest.dir/src/LRUCache.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/LRUCache.cpp -o CMakeFiles/tcptest.dir/src/LRUCache.cpp.s
 
 CMakeFiles/tcptest.dir/src/KVService.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/KVService.cpp.o: ../src/KVService.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tcptest.dir/src/KVService.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/KVService.cpp.o -c /home/apirlstorm/projects/kvstore/src/KVService.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/KVService.cpp.o -c /home/apirlstorm/projects/kvstore/src/KVService.cpp
 
 CMakeFiles/tcptest.dir/src/KVService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/KVService.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/KVService.cpp > CMakeFiles/tcptest.dir/src/KVService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/KVService.cpp > CMakeFiles/tcptest.dir/src/KVService.cpp.i
 
 CMakeFiles/tcptest.dir/src/KVService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/KVService.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/KVService.cpp -o CMakeFiles/tcptest.dir/src/KVService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/KVService.cpp -o CMakeFiles/tcptest.dir/src/KVService.cpp.s
 
 CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.o: ../src/LevelDBStore.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.o -c /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.o -c /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp
 
 CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp > CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp > CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.i
 
 CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp -o CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/LevelDBStore.cpp -o CMakeFiles/tcptest.dir/src/LevelDBStore.cpp.s
 
 CMakeFiles/tcptest.dir/src/TaskQueue.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/TaskQueue.cpp.o: ../src/TaskQueue.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tcptest.dir/src/TaskQueue.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/TaskQueue.cpp.o -c /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/TaskQueue.cpp.o -c /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp
 
 CMakeFiles/tcptest.dir/src/TaskQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/TaskQueue.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp > CMakeFiles/tcptest.dir/src/TaskQueue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp > CMakeFiles/tcptest.dir/src/TaskQueue.cpp.i
 
 CMakeFiles/tcptest.dir/src/TaskQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/TaskQueue.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp -o CMakeFiles/tcptest.dir/src/TaskQueue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/TaskQueue.cpp -o CMakeFiles/tcptest.dir/src/TaskQueue.cpp.s
 
 CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o: CMakeFiles/tcptest.dir/flags.make
 CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o: ../src/ThreadPool.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apirlstorm/projects/kvstore/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o -c /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tcptest.dir/src/ThreadPool.cpp.o -c /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp
 
 CMakeFiles/tcptest.dir/src/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tcptest.dir/src/ThreadPool.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp > CMakeFiles/tcptest.dir/src/ThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp > CMakeFiles/tcptest.dir/src/ThreadPool.cpp.i
 
 CMakeFiles/tcptest.dir/src/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tcptest.dir/src/ThreadPool.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp -o CMakeFiles/tcptest.dir/src/ThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apirlstorm/projects/kvstore/src/ThreadPool.cpp -o CMakeFiles/tcptest.dir/src/ThreadPool.cpp.s
 
 # Object files for target tcptest
 tcptest_OBJECTS = \
