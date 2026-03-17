@@ -25,7 +25,7 @@ namespace yjKvs {
         pool_[capacity_ - 1].next = -1; 
 
         //预先为哈希表分配足够的桶 (Buckets) 空间
-        //此举旨在防止程序运行期间触发昂贵的 Rehash 动作导致性能抖动 (Jitter)
+        //此举旨在防止程序运行期间触发昂贵的Rehash动作导致性能抖动
         map_.reserve(capacity_);
     }
 
@@ -34,7 +34,7 @@ namespace yjKvs {
         
         auto it = map_.find(key);
         if (it == map_.end()) {
-            return false; // Cache Miss
+            return false; //Cache Miss
         }
 
         //获取该键在物理数组中的真实索引
@@ -65,7 +65,7 @@ namespace yjKvs {
             if (freeListHead_ != -1) {
                 //缓存未达容量阈值，从空闲单链表剥离一个干净的节点
                 newNodeIndex = freeListHead_;
-                freeListHead_ = pool_[freeListHead_].next; // 更新Free List头指针
+                freeListHead_ = pool_[freeListHead_].next; //更新Free List头指针
             } else {
                 //缓存已满，触发LRU淘汰协议与尾节点就地复用
                 newNodeIndex = tail_; 
@@ -136,6 +136,9 @@ namespace yjKvs {
             //若该节点原本为尾节点，则需前移tail_游标
             tail_ = prevIndex; 
         }
+
+        pool_[index].prev = -1;
+        pool_[index].next = -1;
     }
 
     //内部双向链表拓扑关系重构：前置插入节点

@@ -25,7 +25,7 @@ namespace yjKvs {
     public:
         //构造函数显式要求传入缓存容量阈值
         explicit LRUCache(size_t capacity);
-        ~LRUCache() = default; //std::vector与unordered_ma 的RAII机制将自动安全释放内存
+        ~LRUCache() = default; //std::vector与unordered_map的RAII机制将自动安全释放内存
 
         //核心读写接口
         bool Get(const std::string& key, std::string& value);

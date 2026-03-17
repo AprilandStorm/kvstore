@@ -19,10 +19,10 @@ namespace yjKvs {
     }
 
     size_t HashLRUCache::GetSliceIndex(const std::string& key) const {
-        //C++ 标准库自带的字符串哈希函数
+        //C++标准库自带的字符串哈希函数
         std::hash<std::string> hash_fn;
         //计算哈希值并对分片数量取模
-        return hash_fn(key) % sliceNum_;
+        return hash_fn(key) & (sliceNum_ - 1);
     }
 
     bool HashLRUCache::Get(const std::string& key, std::string& value) {
